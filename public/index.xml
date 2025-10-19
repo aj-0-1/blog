@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>aj-0-1</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on aj-0-1</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/notes/ostep/1_intro/</link>
-      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/ostep/1_intro/</guid>
+      <title>1. Introduction</title>
+      <link>http://localhost:1313/blog/notes/ostep/1_intro/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/notes/ostep/1_intro/</guid>
       <description>&lt;h1 id=&#34;introduction-to-operating-systems&#34;&gt;Introduction to Operating Systems&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-a-program&#34;&gt;What is a program?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A program is a set of instructions and data that tell a computer what to do.&lt;/li&gt;&#xA;&lt;li&gt;It is static and lives on persistent storage (disk).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-an-operating-system&#34;&gt;What is an Operating System?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An OS is a piece of software that makes it easier for us to manage and run multiple programs.&lt;/li&gt;&#xA;&lt;li&gt;It aims to make sure the system operates safely, correctly and efficiently.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;Virtual Machine&lt;/code&gt;:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It uses &lt;code&gt;Virtualisation&lt;/code&gt; to take &lt;code&gt;physical&lt;/code&gt; resources (CPU, memory, disk) and transform them into&#xA;a more general and &lt;code&gt;virtual&lt;/code&gt; version of itself.&lt;/li&gt;&#xA;&lt;li&gt;Virtualisation allows us to create &lt;code&gt;illusions&lt;/code&gt; or more &lt;code&gt;powerful abstractions&lt;/code&gt; of what the raw&#xA;hardware really is such as the &lt;code&gt;Process (Virtual CPU)&lt;/code&gt; and the &lt;code&gt;Address Space (Virtual Memory)&lt;/code&gt;.&#xA;The hardware is limited but this abstraction allows us to solve a lot of problems and achieve the&#xA;goals of an ideal OS.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&lt;code&gt;Resource Manager&lt;/code&gt;:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Virtualisation allows many programs at the same time and so they will share physical resources.&lt;/li&gt;&#xA;&lt;li&gt;Therefore, the OS needs to manage resources with a set of policies and mechanisms so that this is&#xA;achieved safely, correctly and efficiently.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;&lt;code&gt;Standard Interface&lt;/code&gt;:&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The OS provides an API of system calls that allow application programs to interact with the&#xA;hardware or other processes through a standardised interface.&lt;/li&gt;&#xA;&lt;li&gt;This improves portability since programs can now run on various types of hardware as long it runs&#xA;the given OS (or compatible system calls).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The OS uses virtualisation to create the illusion of plentiful, dedicated resources for every&#xA;program, while serving as a strict resource manager to safely coordinate the sharing of physical&#xA;hardware, all accessed by applications through a unified standard interface of system calls.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

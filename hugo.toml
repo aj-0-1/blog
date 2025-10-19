@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://aj-0-1.github.io/blog/'
 languageCode = 'en-us'
 title = 'aj-0-1'
 theme = 'terminal'
@@ -11,5 +11,5 @@ theme = 'terminal'
 [[menu.main]]
   identifier = "notes"
   name = "Notes"
-  url = "/notes/"
+  pageRef = "/notes"
   weight = 1
